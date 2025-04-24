@@ -1,0 +1,35 @@
+use cadastro;
+insert into cursos values
+('1', 'Python', 'Banco de dados', '170', '150', '2024'),
+('2', 'JavaScript', 'Banco de dados', '79', '121', '2020'),
+('3', 'Java', 'Banco de dados', '90', '111', '2023'),
+('4', 'C#', 'Banco de dados', '40', '51', '2025'),
+('5', 'C++', 'Banco de dados', '50', '45', '2025'),
+('6', 'Go (Golang)', 'Banco de dados', '80', '60', '2024'),
+('7', 'TypeScript', 'Banco de dados', '120', '90', '2023'),
+('8', 'React', 'Banco de dados', '100', '78', '2022'),
+('9', 'Angular', 'Banco de dados', '30', '29', '2022'),
+('10', 'Vue.js', 'Banco de dados', '60', '38', '2021'),
+('11', 'Node.js', 'Banco de dados', '130', '109', '2025'),
+('12', 'Express.js', 'Banco de dados', '150', '132', '2023'),
+('13', 'Spring Framework', 'Banco de dados', '87', '75', '2023'),
+('14', 'NET (ASP.NET Core)', 'Banco de dados', '20', '15', '2025'),
+('15', 'Django', 'Banco de dados', '70', '55', '2018'),
+('16', 'TensorFlow', 'Banco de dados', '95', '87', '2017'),
+('17', 'PyTorch', 'Banco de dados', '155', '133', '2019'),
+('18', 'MySQL', 'Banco de dados', '46', '19', '2016'),
+('19', 'PostgreSQL', 'Banco de dados', '170', '21', '2020'),
+('20', 'MongoDB', 'Banco de dados', '200', '21', '2017'),
+('21', 'Firebase/Firestore', 'Banco de dados', '300', '21', '2022'),
+('22', 'SQL Server', 'Banco de dados', '210', '21', '2018'),
+('23', 'Git', 'Banco de dados', '10', '21', '2015'),
+('24', 'Docker', 'Banco de dados', '55', '21', '2024'),
+('25', 'Kubernetes', 'Banco de dados', '34', '21', '2025'),
+('26', 'APIs (RESTful e GraphQL)', 'Banco de dados', '77', '21', '2020'),
+('27', 'Cloud Computing (AWS, Azure, GCP)', 'Banco de dados', '66', '21', '2016'),
+('28', 'Inteligência Artificial (IA) / Aprendizado de Máquina (ML)', 'Banco de dados', '190', '21', '2017'),
+('29', 'DevOps', 'Banco de dados', '38', '21', '2023'),
+('30', 'Testes Aupeopletomatizados', 'Banco de dados', '68', '21', '2022');
+
+describe cursos;
+select * from cursos;
